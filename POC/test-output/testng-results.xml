@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="75912" started-at="2018-12-19T09:16:17Z" finished-at="2018-12-19T09:17:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="75912" started-at="2018-12-19T09:16:17Z" finished-at="2018-12-19T09:17:33Z">
+      <class name="test.Test1">
+        <test-method status="PASS" signature="CreateNewCase()[pri:0, instance:test.Test1@39aeed2f]" name="CreateNewCase" duration-ms="75866" started-at="2018-12-19T09:16:17Z" finished-at="2018-12-19T09:17:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewCase -->
+      </class> <!-- test.Test1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
