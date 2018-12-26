@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="49892" started-at="2018-12-10T13:13:35Z" finished-at="2018-12-10T13:14:25Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="49892" started-at="2018-12-10T13:13:35Z" finished-at="2018-12-10T13:14:25Z">
+      <class name="testsuite.testcases.TC01_CreateNewCase">
+        <test-method status="PASS" signature="deleteExistingReport()[pri:0, instance:testsuite.testcases.TC01_CreateNewCase@ea4a92b]" name="deleteExistingReport" is-config="true" duration-ms="15" started-at="2018-12-10T18:43:35Z" finished-at="2018-12-10T18:43:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteExistingReport -->
+        <test-method status="PASS" signature="initiatebrowser()[pri:0, instance:testsuite.testcases.TC01_CreateNewCase@ea4a92b]" name="initiatebrowser" is-config="true" duration-ms="1484" started-at="2018-12-10T18:43:35Z" finished-at="2018-12-10T18:43:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiatebrowser -->
+        <test-method status="FAIL" signature="CreateNewCase()[pri:0, instance:testsuite.testcases.TC01_CreateNewCase@ea4a92b]" name="CreateNewCase" duration-ms="48361" started-at="2018-12-10T18:43:37Z" finished-at="2018-12-10T18:44:25Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[nullnull]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: nullnull
+	at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
+	at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:24)
+	at testsuite.testcases.TC01_CreateNewCase.CreateNewCase(TC01_CreateNewCase.java:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewCase -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testsuite.testcases.TC01_CreateNewCase@ea4a92b]" name="tearDown" is-config="true" duration-ms="16" started-at="2018-12-10T18:44:25Z" finished-at="2018-12-10T18:44:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testsuite.testcases.TC01_CreateNewCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
